@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <h1>AluraBooks</h1>
+    <header class=”cabeçalho”>
+        <div class="container">
+        <span class=”cabeçalho__menu-hamburguer”></span>
+        <a href="#"><img src="Menu.png">
+        <img src="Logo.png" alt="Logo da AluraBooks"> 
+    </div>
+    
+    <div class="container">
+        <a href="#"><img src="Favoritos.png" alt="Meus Favoritos">
+        <a href="#"><img src="Compras.png" alt="Carrinho de Compras">
+        <a href="#"><img src="Usuario.png" alt="Meu Perfil">
+    </div>
+        </header>
+</header>
 </body>
 </html>
