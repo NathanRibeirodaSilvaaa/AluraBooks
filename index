@@ -13,6 +13,7 @@
         <label for="menu">
         <span class=”cabeçalho__menu-hamburguer container__imagem”></span>
         </label>
+        
         <ul class="lista-menu">
             <li class="lista-menu__titulo"> Categorias</li>
             <li class=”lista-menu__item”>
@@ -31,7 +32,7 @@
                 <a href=”#” class=”lista-menu__link”>Design & UX</a>
                 </li>
         </ul>
-        <input type=”checkbox” id=”menu” class=”container__botao”>
+        <input type="checkbox">
         <img src="Menu.png" alt=”Logo da Alurabooks” class=”container__imagem”>
         <img src="Logo.png" alt=”Logo da Alurabooks” class=”container__imagem”>
        
