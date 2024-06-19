@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,17 +10,35 @@
 </head>
 <body>
     <header class=”cabeçalho”>
-        <div class="container">
-        <span class=”cabeçalho__menu-hamburguer”></span>
-        <a href="#"><img src="Menu.png">
-        <img src="Logo.png" alt="Logo da AluraBooks"> 
-    </div>
-    
-    <div class="container">
-        <a href="#"><img src="Favoritos.png" alt="Meus Favoritos">
-        <a href="#"><img src="Compras.png" alt="Carrinho de Compras">
-        <a href="#"><img src="Usuario.png" alt="Meu Perfil">
-    </div>
+        <label for="menu">
+        <span class=”cabeçalho__menu-hamburguer container__imagem”></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo"> Categorias</li>
+            <li class=”lista-menu__item”>
+                <a href=”#” class=”lista-menu__link”>Programação</a>
+                </li>
+                <li class=”lista-menu__item”>
+                <a href=”#” class=”lista-menu__link”>Front-end</a>
+                </li>
+                <li class=”lista-menu__item”>
+                <a href=”#” class=”lista-menu__link”>Infraestrutura</a>
+                </li>
+                <li class=”lista-menu__item”>
+                <a href=”#” class=”lista-menu__link”>Business</a>
+                </li>
+                <li class=”lista-menu__item”>
+                <a href=”#” class=”lista-menu__link”>Design & UX</a>
+                </li>
+        </ul>
+        <input type=”checkbox” id=”menu” class=”container__botao”>
+        <img src="Menu.png" alt=”Logo da Alurabooks” class=”container__imagem”>
+        <img src="Logo.png" alt=”Logo da Alurabooks” class=”container__imagem”>
+       
+        <a href=”#”><img src="Favoritos.png" alt=”Meus favoritos” class=”container__imagem”></a>
+        <a href=”#”><img src="Compras.png" alt=”Carrinho de compras” class=”container__imagem”></a>
+        <a href=”#”><img src="Usuario.png" alt=”Meu perfil” class=”container__imagem”></a>
+       
         </header>
 </header>
 </body>
